@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegateEvents", "M003_DelegateEvents", "{DE3DFD0C-A111-4789-80E7-9750BE59149E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{D926A314-40DC-4AEA-92CE-CDE297EAF189}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C80D70DD-6F59-43BF-8A25-84544C2CDCF7}
+	EndGlobalSection
+EndGlobal
