@@ -2,9 +2,11 @@ namespace Labs
 {
     public class PrimeComponent
     {
+        // Der EventHandler ist auch nur ein delegate mit den Argumenten object und EventArgs.
+        // Wir koennen statt dem EventHandler Delegate auch den Action Delegate verwenden.
         public event Action<int> Prime;
         public event Action<int> Prime100;
-        public event Action<int, int> NotPrime;
+        public event Action<(int current, int divider)> NotPrime;
 
         public void StartProcess()
         {
@@ -27,7 +29,7 @@ namespace Labs
         {
             if (num % 2 == 0)
             {
-                NotPrime?.Invoke(num, 2);
+                NotPrime?.Invoke((num, 2));
                 return false;
             }
 
@@ -35,7 +37,7 @@ namespace Labs
             {
                 if (num % i == 0)
                 {
-                    NotPrime?.Invoke(num, i);
+                    NotPrime?.Invoke((num, i));
                     return false;
                 }
             }
