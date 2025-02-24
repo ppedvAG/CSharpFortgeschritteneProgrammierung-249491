@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegateEvents", "M003
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{D926A314-40DC-4AEA-92CE-CDE297EAF189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3_Delegates", "Lab3_Delegates\Lab3_Delegates.csproj", "{538BD2C2-8FC4-40E8-8C14-EBB871E75878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +25,18 @@ Global
 		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D926A314-40DC-4AEA-92CE-CDE297EAF189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538BD2C2-8FC4-40E8-8C14-EBB871E75878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538BD2C2-8FC4-40E8-8C14-EBB871E75878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538BD2C2-8FC4-40E8-8C14-EBB871E75878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538BD2C2-8FC4-40E8-8C14-EBB871E75878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9CE1E1FB-786F-45BE-AEF3-99139E8622A5} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
+		{D926A314-40DC-4AEA-92CE-CDE297EAF189} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
+		{538BD2C2-8FC4-40E8-8C14-EBB871E75878} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80D70DD-6F59-43BF-8A25-84544C2CDCF7}
