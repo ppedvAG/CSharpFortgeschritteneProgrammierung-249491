@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{9CE1E1FB-786F-45BE-AEF3-99139E8622A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegateEvents", "M003_DelegateEvents", "{DE3DFD0C-A111-4789-80E7-9750BE59149E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{D926A314-40DC-4AEA-92CE-CDE297EAF189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{D926A314-40DC-4AEA-92CE-CDE297EAF189}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3_Delegates", "Lab3_Delegates\Lab3_Delegates.csproj", "{538BD2C2-8FC4-40E8-8C14-EBB871E75878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab3_Delegates", "Lab3_Delegates\Lab3_Delegates.csproj", "{538BD2C2-8FC4-40E8-8C14-EBB871E75878}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M004_Generics", "M004_Generics", "{A3258264-A17D-4F27-B69D-D0898492BD03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGenerics", "HelloGenerics\HelloGenerics.csproj", "{66FA2017-3C17-44D5-9CF7-50596BE323B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloGenerics", "HelloGenerics\HelloGenerics.csproj", "{66FA2017-3C17-44D5-9CF7-50596BE323B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4_SolarSystem", "Lab4_SolarSystem\Lab4_SolarSystem.csproj", "{D808B04D-097B-40DE-BA65-97284CACA046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{66FA2017-3C17-44D5-9CF7-50596BE323B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66FA2017-3C17-44D5-9CF7-50596BE323B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66FA2017-3C17-44D5-9CF7-50596BE323B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D808B04D-097B-40DE-BA65-97284CACA046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D808B04D-097B-40DE-BA65-97284CACA046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D808B04D-097B-40DE-BA65-97284CACA046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D808B04D-097B-40DE-BA65-97284CACA046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{D926A314-40DC-4AEA-92CE-CDE297EAF189} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
 		{538BD2C2-8FC4-40E8-8C14-EBB871E75878} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
 		{66FA2017-3C17-44D5-9CF7-50596BE323B0} = {A3258264-A17D-4F27-B69D-D0898492BD03}
+		{D808B04D-097B-40DE-BA65-97284CACA046} = {A3258264-A17D-4F27-B69D-D0898492BD03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80D70DD-6F59-43BF-8A25-84544C2CDCF7}
