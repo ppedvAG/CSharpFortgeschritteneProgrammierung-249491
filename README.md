@@ -62,23 +62,21 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 - [ ] Async/Await vs Tasks
 - [ ] Async/Await in Verbindung mit WPF
 
-## M009 | Reflection
+## M009 | Linq & Erweiterungsmethoden
+
+- [x] Intro Linq
+- [x] Einfaches Linq
+- [x] Weitere Linq Funktionen
+- [x] Komplexes Linq
+- [x] Erweiterungsmethoden
+
+## M010 | Reflection
 
 - [ ] Intro Reflection
 - [ ] Dynamisches Arbeiten mit Typen
 - [ ] Plugins erstellen und laden
 - [ ] DLLs laden
 - [ ] Attribute
-
-
-## M010 | Linq & Erweiterungsmethoden
-
-- [ ] Intro Linq
-- [ ] Einfaches Linq
-- [ ] Weitere Linq Funktionen
-- [ ] Komplexes Linq
-- [ ] Erweiterungsmethoden
-
 
 ## M011 | Sonstige Themen
 

@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloGenerics", "HelloGener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4_SolarSystem", "Lab4_SolarSystem\Lab4_SolarSystem.csproj", "{D808B04D-097B-40DE-BA65-97284CACA046}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M009_Linq", "M009_Linq", "{102DE023-44E2-4C76-8395-F90EA0F48FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{079BC792-0B60-4346-8783-166032D5E6F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{D808B04D-097B-40DE-BA65-97284CACA046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D808B04D-097B-40DE-BA65-97284CACA046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D808B04D-097B-40DE-BA65-97284CACA046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079BC792-0B60-4346-8783-166032D5E6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079BC792-0B60-4346-8783-166032D5E6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079BC792-0B60-4346-8783-166032D5E6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079BC792-0B60-4346-8783-166032D5E6F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{538BD2C2-8FC4-40E8-8C14-EBB871E75878} = {DE3DFD0C-A111-4789-80E7-9750BE59149E}
 		{66FA2017-3C17-44D5-9CF7-50596BE323B0} = {A3258264-A17D-4F27-B69D-D0898492BD03}
 		{D808B04D-097B-40DE-BA65-97284CACA046} = {A3258264-A17D-4F27-B69D-D0898492BD03}
+		{079BC792-0B60-4346-8783-166032D5E6F7} = {102DE023-44E2-4C76-8395-F90EA0F48FE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80D70DD-6F59-43BF-8A25-84544C2CDCF7}
