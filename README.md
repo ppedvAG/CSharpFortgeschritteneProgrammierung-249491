@@ -48,13 +48,13 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M007 | TPL
 
-- [ ] Intro Tasks
-- [ ] Task starten/stoppen
-- [ ] Task mit Parameter und/oder Return
-- [ ] Exceptions in Tasks
-- [ ] Tasks fortsetzen
-- [ ] Auf mehrere Tasks warten
-- [ ] Tasks verketten
+- [x] Intro Tasks
+- [x] Task starten/stoppen
+- [x] Task mit Parameter und/oder Return
+- [x] Exceptions in Tasks
+- [x] Tasks fortsetzen
+- [x] Auf mehrere Tasks warten
+- [x] Tasks verketten
 
 ## M008 | TPL Async/Await
 
