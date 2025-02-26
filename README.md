@@ -39,12 +39,12 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M006 | Multithreading
 
-- [ ] Intro Threading
-- [ ] Thread starten/stoppen
-- [ ] Thread mit Parameter
-- [ ] Threadpool
-- [ ] Lock
-- [ ] Mutex, Interlocked, ConcurrentCollection
+- [x] Intro Threading
+- [x] Thread starten/stoppen
+- [x] Thread mit Parameter
+- [x] Threadpool
+- [x] Lock
+- [x] Mutex, Interlocked, ConcurrentCollection
 
 ## M007 | TPL
 
