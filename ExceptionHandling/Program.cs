@@ -1,9 +1,9 @@
 ﻿
 namespace ExceptionHandling
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // vor int? war die Schreibweise Nullable<int>
             int? number = null; 
@@ -36,7 +36,7 @@ namespace ExceptionHandling
             Console.ReadKey();
         }
 
-        private static int? ReadNumber(string? input)
+        public static int? ReadNumber(string? input)
         {
             try
             {
