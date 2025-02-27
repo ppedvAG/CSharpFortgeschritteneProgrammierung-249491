@@ -1,6 +1,6 @@
 using System;
 
-namespace Lab11_ExcpetionHandling
+namespace Lab11_ExceptionHandling.Vorgabe
 {
     public enum Rechenoperation { Addition = 1, Subtraktion, Multiplikation, Division }
 
@@ -51,24 +51,24 @@ namespace Lab11_ExcpetionHandling
 
         public Term(string term)
         {
-            this.Eingabe = term;
-            this.Operation = this.GetRechenoperation();
+            Eingabe = term;
+            Operation = GetRechenoperation();
 
-            string[] zahlen = this.SplitTerm();
+            string[] zahlen = SplitTerm();
 
-            this.Zahl1 = int.Parse(zahlen[0]);
-            this.Zahl2 = int.Parse(zahlen[1]);
+            Zahl1 = int.Parse(zahlen[0]);
+            Zahl2 = int.Parse(zahlen[1]);
         }
 
         private Rechenoperation GetRechenoperation()
         {
-            if (this.Eingabe.Contains('+'))
+            if (Eingabe.Contains('+'))
                 return Rechenoperation.Addition;
-            else if (this.Eingabe.Contains('-'))
+            else if (Eingabe.Contains('-'))
                 return Rechenoperation.Subtraktion;
-            else if (this.Eingabe.Contains('*'))
+            else if (Eingabe.Contains('*'))
                 return Rechenoperation.Multiplikation;
-            else if (this.Eingabe.Contains('/'))
+            else if (Eingabe.Contains('/'))
                 return Rechenoperation.Division;
             else
                 return 0;
@@ -76,16 +76,16 @@ namespace Lab11_ExcpetionHandling
 
         private string[] SplitTerm()
         {
-            switch (this.Operation)
+            switch (Operation)
             {
                 case Rechenoperation.Addition:
-                    return this.Eingabe.Split('+');
+                    return Eingabe.Split('+');
                 case Rechenoperation.Subtraktion:
-                    return this.Eingabe.Split('-');
+                    return Eingabe.Split('-');
                 case Rechenoperation.Multiplikation:
-                    return this.Eingabe.Split('*');
+                    return Eingabe.Split('*');
                 case Rechenoperation.Division:
-                    return this.Eingabe.Split('/');
+                    return Eingabe.Split('/');
             }
             return null;
         }
