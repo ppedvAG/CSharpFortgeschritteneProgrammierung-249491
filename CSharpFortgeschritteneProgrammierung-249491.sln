@@ -31,17 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab5_SolarExport", "Lab_Sol
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_Threads", "M006_Threads", "{3028B5F5-9411-4B87-994B-A7F9EC02189F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsBasics", "ThreadsBasics\ThreadsBasics.csproj", "{6F281F16-0F7E-4916-8995-13725C30A7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsBasics", "ThreadsBasics\ThreadsBasics.csproj", "{6F281F16-0F7E-4916-8995-13725C30A7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsConcurrency", "ThreadsConcurrency\ThreadsConcurrency.csproj", "{9BB5E72C-B6D5-4F31-985A-FAD3AFCAC154}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadsConcurrency", "ThreadsConcurrency\ThreadsConcurrency.csproj", "{9BB5E72C-B6D5-4F31-985A-FAD3AFCAC154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab6_Konto", "Lab6_Multithreading\Lab6_Konto.csproj", "{8B2D9B4F-776B-493F-AF5B-10EB57EB2A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab6_Konto", "Lab6_Multithreading\Lab6_Konto.csproj", "{8B2D9B4F-776B-493F-AF5B-10EB57EB2A0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M007_TPL", "M007_TPL", "{B4518C74-5B7B-4AE3-B09F-E6AF6ECA4E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL_Multitasking", "TPL_Multitasking\TPL_Multitasking.csproj", "{5736F5F0-DA52-45CF-9DF7-FB85E5BB7617}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPL_Multitasking", "TPL_Multitasking\TPL_Multitasking.csproj", "{5736F5F0-DA52-45CF-9DF7-FB85E5BB7617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7_Images", "Lab7_Images\Lab7_Images.csproj", "{B5998DA6-FE03-43A1-A78D-299E43DDBAE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab7_Images", "Lab7_Images\Lab7_Images.csproj", "{B5998DA6-FE03-43A1-A78D-299E43DDBAE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M011_ExceptionHandling", "M011_ExceptionHandling", "{27110901-0E85-4B26-A0CC-19DBC7DCEC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,10 @@ Global
 		{B5998DA6-FE03-43A1-A78D-299E43DDBAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5998DA6-FE03-43A1-A78D-299E43DDBAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5998DA6-FE03-43A1-A78D-299E43DDBAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,6 +132,7 @@ Global
 		{8B2D9B4F-776B-493F-AF5B-10EB57EB2A0C} = {3028B5F5-9411-4B87-994B-A7F9EC02189F}
 		{5736F5F0-DA52-45CF-9DF7-FB85E5BB7617} = {B4518C74-5B7B-4AE3-B09F-E6AF6ECA4E9D}
 		{B5998DA6-FE03-43A1-A78D-299E43DDBAE8} = {B4518C74-5B7B-4AE3-B09F-E6AF6ECA4E9D}
+		{2EEB12EC-FF35-4D95-9EB4-137C2D1C9E84} = {27110901-0E85-4B26-A0CC-19DBC7DCEC67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C80D70DD-6F59-43BF-8A25-84544C2CDCF7}
