@@ -1,0 +1,48 @@
+@HostAddress = http://localhost:5064
+
+GET {{HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/api/vehicles
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/api/vehicles/cf9b423e-8075-b538-bea0-600bf84a173e
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/vehicles
+Content-Type: application/json
+Accept: application/json
+
+{
+  "manufacturer": "Lamborghini",
+  "model": "Huracan",
+  "color": "Red",
+  "fuel": "Gasoline",
+  "topSpeed": 300,
+  "type": "Sports Car"
+}
+
+###
+
+PUT {{HostAddress}}/api/vehicles/cf9b423e-8075-b538-bea0-600bf84a173e
+Content-Type: application/json
+Accept: application/json
+
+{
+  "manufacturer": "Lamborghini",
+  "model": "Huracan",
+  "color": "Red",
+  "fuel": "Gasoline",
+  "topSpeed": 300,
+  "type": "Sports Car"
+}
+
+###
+
+DELETE {{HostAddress}}/api/vehicles/cf9b423e-8075-b538-bea0-600bf84a173e

@@ -80,10 +80,12 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M011 | Sonstige Themen
 
-- [ ] MSTest und Moq benutzen
+- [ ] MSTest und Mocking benutzen
 - [ ] Operatoren überladen
 - [ ] Enumerator
 - [ ] StringBuffer
 - [ ] Indexer
 - [ ] Anonyme Objekte
 - [ ] Timer
+- [x] Web API
+- [x] [http-files](https://learn.microsoft.com/de-de/aspnet/core/test/http-files?view=aspnetcore-8.0)
