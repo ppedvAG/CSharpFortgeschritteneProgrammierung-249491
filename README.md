@@ -58,9 +58,9 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M008 | TPL Async/Await
 
-- [ ] Intro Async/Await Pattern
-- [ ] Async/Await vs Tasks
-- [ ] Async/Await in Verbindung mit WPF
+- [x] Intro Async/Await Pattern
+- [x] Async/Await vs Tasks
+- [x] Async/Await in Verbindung mit WPF
 
 ## M009 | Linq & Erweiterungsmethoden
 
