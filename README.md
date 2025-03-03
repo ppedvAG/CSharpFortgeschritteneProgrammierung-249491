@@ -72,11 +72,11 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M010 | Reflection
 
-- [ ] Intro Reflection
-- [ ] Dynamisches Arbeiten mit Typen
-- [ ] Plugins erstellen und laden
-- [ ] DLLs laden
-- [ ] Attribute
+- [x] Intro Reflection
+- [x] Dynamisches Arbeiten mit Typen
+- [x] Plugins erstellen und laden
+- [x] DLLs laden
+- [x] Attribute
 
 ## M011 | Sonstige Themen
 

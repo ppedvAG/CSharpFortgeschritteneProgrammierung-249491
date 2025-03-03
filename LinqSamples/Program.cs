@@ -1,4 +1,4 @@
-﻿using LinqSamples.Data;
+﻿using BusinessLogic.Data;
 using LinqSamples.Extensions;
 using System.Text;
 

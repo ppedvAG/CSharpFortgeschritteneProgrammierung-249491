@@ -1,6 +1,6 @@
-﻿using LinqSamples.Data;
+﻿using BusinessLogic.Data;
 
-namespace WeatherApi.Contracts
+namespace BusinessLogic.Contracts
 {
     public interface IVehiclesService
     {

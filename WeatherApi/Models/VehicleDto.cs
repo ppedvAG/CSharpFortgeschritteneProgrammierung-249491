@@ -1,5 +1,4 @@
-﻿using LinqSamples.Data;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace WeatherApi.Models
 {

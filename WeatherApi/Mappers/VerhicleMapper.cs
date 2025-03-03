@@ -1,4 +1,4 @@
-﻿using LinqSamples.Data;
+﻿using BusinessLogic.Data;
 using WeatherApi.Models;
 
 namespace WeatherApi.Mappers

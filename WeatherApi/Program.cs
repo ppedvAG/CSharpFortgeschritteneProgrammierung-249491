@@ -1,4 +1,6 @@
 
+using BusinessLogic.Contracts;
+using BusinessLogic.Services;
 using System.Text.Json.Serialization;
 using WeatherApi.Contracts;
 using WeatherApi.Services;

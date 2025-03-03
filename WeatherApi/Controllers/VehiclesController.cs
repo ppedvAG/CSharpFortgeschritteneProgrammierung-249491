@@ -1,6 +1,5 @@
-﻿using LinqSamples.Data;
+﻿using BusinessLogic.Contracts;
 using Microsoft.AspNetCore.Mvc;
-using WeatherApi.Contracts;
 using WeatherApi.Mappers;
 using WeatherApi.Models;
 

@@ -1,9 +1,10 @@
-﻿using LinqSamples.Data;
-using WeatherApi.Contracts;
+﻿using BusinessLogic.Data;
+using BusinessLogic.Contracts;
+using BusinessLogic.Attributes;
 
-namespace WeatherApi.Services
+namespace BusinessLogic.Services
 {
-    // Vehicle Service mit CRUD Operationen
+    [Service("Vehicle Service mit CRUD Operationen")]
     public class VehiclesService : IVehiclesService
     {
         private readonly List<Car> _data = DataGenerator.GenerateVehicles().ToList();
