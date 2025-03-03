@@ -4,7 +4,7 @@ namespace WeatherApi.Contracts
 {
     public interface IVehiclesService
     {
-        void Create(Car car);
+        string Create(Car car);
         bool Delete(Guid id);
         IEnumerable<Car> GetAll();
         Car? GetById(Guid id);

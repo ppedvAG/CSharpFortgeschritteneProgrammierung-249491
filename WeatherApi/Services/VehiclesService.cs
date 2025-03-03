@@ -12,10 +12,11 @@ namespace WeatherApi.Services
 
         public Car? GetById(Guid id) => _data.FirstOrDefault(x => x.Id == $"{id}");
 
-        public void Create(Car car)
+        public string Create(Car car)
         {
             car.Id = Guid.NewGuid().ToString();
             _data.Add(car);
+            return car.Id;
         }
 
         public bool Update(Guid id, Car car)

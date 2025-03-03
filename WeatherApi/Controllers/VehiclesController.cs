@@ -21,37 +21,56 @@ namespace WeatherApi.Controllers
 
         // GET: api/<VehiclesController>
         [HttpGet]
-        public IEnumerable<VehicleDto> Get()
+        public IActionResult Get()
         {
-            return vehiclesService.GetAll().Select(e => e.ToDto());
+            var result = vehiclesService.GetAll().Select(e => e.ToDto());
+            return Ok(result);
         }
 
         // GET api/<VehiclesController>/5
         [HttpGet("{id}")]
-        public VehicleDto? Get(Guid id)
+        public ActionResult<VehicleDto?> Get(Guid id)
         {
-            return vehiclesService.GetById(id).ToDto();
+            var result = vehiclesService.GetById(id);
+            if (result != null)
+            {
+                //return new OkObjectResult(result);
+                return Ok(result.ToDto()); // 200
+            }
+
+            return NotFound(); // 404
         }
 
         // POST api/<VehiclesController>
         [HttpPost]
-        public void Post([FromBody] VehicleDto dto)
+        public IActionResult Post([FromBody] VehicleDto dto)
         {
-            vehiclesService.Create(dto.ToEntity());
+            string id = vehiclesService.Create(dto.ToEntity());
+            return Ok(id); // 200
         }
 
         // PUT api/<VehiclesController>/5
         [HttpPut("{id}")]
-        public void Put(Guid id, [FromBody] VehicleDto dto)
+        public IActionResult Put(Guid id, [FromBody] VehicleDto dto)
         {
-            vehiclesService.Update(id, dto.ToEntity());
+            var success = vehiclesService.Update(id, dto.ToEntity());
+            if (!success)
+            {
+                return NotFound(); // 404
+            }
+            return NoContent(); // 204
         }
 
         // DELETE api/<VehiclesController>/5
         [HttpDelete("{id}")]
-        public void Delete(Guid id)
+        public IActionResult Delete(Guid id)
         {
-            vehiclesService.Delete(id);
+            var success = vehiclesService.Delete(id);
+            if (!success)
+            {
+                return NotFound(); // 404
+            }
+            return NoContent(); // 204
         }
     }
 }

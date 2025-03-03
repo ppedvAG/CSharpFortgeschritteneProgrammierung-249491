@@ -27,10 +27,6 @@ namespace WeatherApi.Mappers
 
         public static VehicleDto ToDto(this Car entity)
         {
-            if (entity == null)
-            {
-                return new VehicleDto();
-            }
             return new VehicleDto
             {
                 Id = entity.Id,
